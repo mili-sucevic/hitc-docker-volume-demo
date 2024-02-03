@@ -78,4 +78,4 @@ This is a simple Flask web application that demonstrates Docker containerization
     ```bash
     docker run -d --name webapp-with-volume -p 8080:8080 -v hitc-data:/app/data webapp-with-volume
 
-12. Access the web app at http://localhost:8080 and repeat the same restart steps to ensure data persistence, as the data will now be stored in the 'mydata' volume allowing it to survive container restarts.
+12. Access the web app at http://localhost:8080 and repeat the same restart steps to ensure data persistence, as the data will now be stored in the 'hitc-data' volume allowing it to survive container restarts.
